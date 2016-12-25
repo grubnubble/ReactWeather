@@ -13,7 +13,10 @@ var React = require('react');
 //    that don't utilize states. recommended in this case
 var About = (props) => {
 	return (
-		<h3>About Component</h3>
+		<div>
+			<h3>About</h3>
+			<p>The temperature of any given city is directly proportional to the number of happy cats in that city</p>
+		</div>
 	);
 };
 
