@@ -3,7 +3,7 @@ var React = require('react');
 var About = (props) => {
 	return (
 		<div>
-			<h1 className="text-center">About</h1>
+			<h1 className="text-center page-title">About</h1>
 			<p>
 				This is a simple React app to show the temperature in Fahrenheit of any city in the world. I made this for a Udemy React course.
 			</p>
